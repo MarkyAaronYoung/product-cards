@@ -4,18 +4,39 @@ body {
 
 .div { 
   display: flexbox;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-width: 20px;
+  margin-block: 30px;
 }
 
 .card {
+  display: flexbox;
+  box-shadow: slategrey;
+  flex-wrap: wrap;
+  justify-content: space-between;
   border: 3px dotted #333;
   border-radius: 5px;
   width: 200px;
   height: 400px;
-  margin: 10px;
+  margin: 40px;
   float: left;
+  background-color: silver;
+  border-style: solid;
+  text-align: center;
 }
 
 ul{
   display: flexbox;
   align-items: flex-end;
+}
+
+.card header {
+  text-align: center;
+  background-color: silver;
+}
+.card img {
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
 }
