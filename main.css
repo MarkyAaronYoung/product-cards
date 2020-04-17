@@ -2,12 +2,20 @@ body {
   background-color: cyan;
 };
 
-.div {  
-
+.div { 
+  display: flexbox;
 }
 
 .card {
-  display: flex;
-  
-  align-items: baseline;
+  border: 3px dotted #333;
+  border-radius: 5px;
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  float: left;
+}
+
+ul{
+  display: flexbox;
+  align-items: flex-end;
 }
