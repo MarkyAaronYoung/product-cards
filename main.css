@@ -1,9 +1,9 @@
 html {
-  max-width: 700px;
+  max-width: 600px;
 }
+
 body {
   background-color: whitesmoke; 700;
-  max-width: 600;
 };
 
 div { 
@@ -21,8 +21,7 @@ flex-direction: row;
 text-emphasis: bold;
 font-size: xx-large;
 font-weight: 800;
-;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Lexend Giga', sans-serif;
 }
 
 .card {
@@ -47,12 +46,12 @@ li {
   font-size: small;
 }
 
-h2 {
+.card h2 {
   background-color: rgb(240, 230, 230);
   text-emphasis: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: x-large;
-  border: 20px;
+  border: 1px;
   border-color: lightblue;
 }
 
@@ -93,4 +92,15 @@ header {
 footer {
   padding: .5px;
   font-size: x-small;
+}
+
+.parent{
+  position: relative;
+}
+.over-img{
+  position: absolute;
+}
+
+@media {
+  aspect-ratio: 3/4;
 }
