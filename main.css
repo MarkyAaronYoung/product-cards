@@ -30,7 +30,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-shadow: rgb(240, 230, 230);
   flex-wrap: wrap;
   justify-content: space-between;
-  border: 10px dotted #333;
   border-radius: 5px;
   width: 200px;
   height: 525px;
@@ -38,14 +37,14 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   float: left;
   background-color:antiquewhite;
   border-style: groove;
-  border-color: seashell;
+  border-color: lightblue;
   text-align: center;
 }
-
 
 li {
   text-align: left;
   font-size: normal;
+  font-size: small;
 }
 
 h2 {
@@ -60,20 +59,20 @@ h2 {
 .card header {
   text-align: center;
   background-color: silver;
+  margin: 2px;
+  padding: 1px;
 }
 .card img {
-  border-radius: 5px;
   height: 200px;
   width: 200px;
-  box-shadow: yellowgreen;
 }
 
 header {
   font-size: small;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 1px:
-
+  border: 1px;
+  border: lightblue;
 }
 
 .card h3 {
@@ -88,7 +87,6 @@ header {
   text-align: center;
   height: 35px;
   justify-content: center;
-  padding: 5px;
 }
 
 footer {
