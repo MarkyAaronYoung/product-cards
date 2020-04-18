@@ -80,6 +80,7 @@ header {
   font-size: large;
   background-color: darkgray ;
   color: yellow;
+  width: 100%;
 }
 
 .card p {
